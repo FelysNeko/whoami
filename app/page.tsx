@@ -27,13 +27,17 @@ const Home = () => {
               <L href="https://felys.dev" text="Felys" />. It is a project that
               will be continuously iterating as I take more technical courses.
               You can find all my active repositories on{" "}
-              <L href="https://github.com/FelysNeko" text="GitHub" />.
+              <L href="https://github.com/FelysNeko" text="GitHub" />. Important
+              thing to know: I love coding does not mean that I am good at it;
+              coding for work and for hobby is different, even if it is the same
+              thing.
             </>,
             <>
               本人现在就读于滑铁卢大学，喜欢且常用Python、C、Rust这三门编程语言。我大部分的时间都花在了开发
               <L href="https://felys.dev" text="FELYS" />
               编程语言上，是一个长期项目，会随着我技术的提升持续迭代。我所有活跃的项目都在
-              <L href="https://github.com/FelysNeko" text="GitHub" />。
+              <L href="https://github.com/FelysNeko" text="GitHub" />
+              。请注意：我喜欢写代码不等于我擅长写代码；以及工作是工作，爱好是爱好，即使同为一件事也解耦的。
             </>
           )}
         </p>
@@ -41,13 +45,13 @@ const Home = () => {
           {choose(
             <>
               Beyond coding, I play frisbee, fingerstyle guitar, and video
-              games. Elysia, Pardofelis, and Acheron from Honkai series are my
-              favourite game characters, but Elysia is my one and only waifu. By
-              the way, the avatar I use everywhere is Asuka from Evangelion, my
-              favourite anime ever.
+              games. Elysia and Acheron from Honkai series are my two favourite
+              game characters, and Elysia is my one and only waifu. By the way,
+              the avatar I use everywhere is Asuka from Evangelion, my favourite
+              anime ever.
             </>,
             <>
-              除了敲代码，我也打飞盘、玩指弹吉他、打游戏。崩坏系列中的爱莉希雅、帕朵菲莉斯、黄泉是我最喜欢的几个游戏角色，其中单推爱莉。同时我也是个EVA厨，头像一直用的是明日香。
+              除了敲代码，我也打飞盘、玩指弹吉他、打游戏。崩坏系列中的爱莉希雅和黄泉是我最喜欢的两个游戏角色，并且单推爱莉。同时我也是个EVA厨，头像一直用的是明日香。
             </>
           )}
         </p>
@@ -66,18 +70,18 @@ const Home = () => {
               I usually respond quickly.
             </>,
             <>
-              我使用的社交媒体仅有
+              在用的社交媒体有
               <L href="https://www.instagram.com/felysneko/" text="INS" />
               和
               <L href="https://www.linkedin.com/in/jonny-jin/" text="领英" />
-              ，而且并不常看。联系我可以直接
+              ，但并不常看。联系我可以直接
               <L href="mailto:contact@felysneko.com" text="邮件" />
               ，回复速度会比较快。
             </>
           )}
         </p>
         <button
-          className="absolute right-6 bottom-6"
+          className="absolute right-6 bottom-6 text-lg"
           onClick={() => setLang((l) => (l === "en" ? "zh" : "en"))}
         >
           <span className={`text-${choose("elypink", "vpwhite")}`}>EN</span>
