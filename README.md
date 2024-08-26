@@ -1,6 +1,8 @@
 # Whoami
 
-A static single page website that introduces myself built with Next.
+A static single page website that introduces myself.
+
+## Setup
 
 ```sh
 npm install
