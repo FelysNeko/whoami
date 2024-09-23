@@ -27,17 +27,13 @@ const Home = () => {
               <L href="https://felys.dev" text="Felys" />. It is a project that
               will be continuously iterating as I take more technical courses.
               You can find all my active repositories on{" "}
-              <L href="https://github.com/FelysNeko" text="GitHub" />. Important
-              thing to know: I love coding does not mean that I am good at it;
-              coding for work and for hobby is different, even if it is the same
-              thing.
+              <L href="https://github.com/FelysNeko" text="GitHub" />.
             </>,
             <>
               本人现在就读于滑铁卢大学，喜欢且常用Python、C、Rust这三门编程语言。我大部分的时间都花在了开发
               <L href="https://felys.dev" text="Felys" />
               编程语言上，是一个长期项目，会随着我技术的提升持续迭代。我所有活跃的项目都在
-              <L href="https://github.com/FelysNeko" text="GitHub" />
-              。请注意：我喜欢写代码不等于我擅长写代码；以及工作是工作，爱好是爱好，即使同为一件事也解耦的。
+              <L href="https://github.com/FelysNeko" text="GitHub" />。
             </>
           )}
         </p>
