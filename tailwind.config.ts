@@ -10,8 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         elypink: "#ffc6f4",
-        vpgray: "#1b1b1f",
-        vpwhite: "#ebebf599",
       },
     },
   },
