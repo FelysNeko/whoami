@@ -22,15 +22,9 @@ const Home = () => {
         </p>
         <p className="text-xl">
           My go-to programming languages are Python, Rust, and C, primarily
-          because I appreciate their design and philosophy. Their source code is
-          great resources for learning compilers and interpreters.
-        </p>
-        <p className="text-xl">
-          I used to have many hobbies, but now I mainly play guitar and video
-          games. My favorite characters are{" "}
-          <span className="hover:text-elypink duration-300">Elysia</span> and
-          Acheron (Honkai) for games, and Asuka (Evangelion) for anime. Elysia
-          is my one and only waifu.
+          because I appreciate their design. Though when it comes to work, I
+          just pick the most suitable tool. After all, the fundamentals remain
+          unchanged.
         </p>
       </div>
     </div>

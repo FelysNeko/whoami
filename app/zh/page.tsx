@@ -7,20 +7,16 @@ const Home = () => {
         <h1 className="text-7xl">你好，</h1>
         <h2 className="text-4xl">我是Jonny Jin，常用网名银河猫猫侠。</h2>
         <p className="text-xl">
-          本人现在就读于滑铁卢大学，有做过全栈开发和强化学习相关的实习，并且对编译器很感兴趣。
+          本人现在在加拿大读大学，有做过全栈开发和强化学习相关的实习，并且对编译器很感兴趣。
           <PL href="https://felys.dev" text="Felys" />
           是我正在创作的一款函数式编程语言，是个大型的兴趣类项目，会随着我技术的提升持续迭代，希望能在大学毕业前写完。
-          详情见我的
-          <PL href="https://www.linkedin.com/in/jonny-jin" text="LinkedIn" />和
-          <PL href="https://github.com/FelysNeko" text="GitHub" />。
-        </p>
-        <p className="text-xl">
           个人常用Python、Rust、C，单纯因为喜欢其设计理念，同时它们的源码也是写编译器和解释器的优质参考。
         </p>
         <p className="text-xl">
-          读大学前兴趣爱好还是挺多的，但现在只有时间弹吉他和打游戏了。最喜欢崩坏系列中的
+          上大学后一直在写项目玩没空追番，再加上对日本文化兴趣减退，基本脱宅了。不过不妨碍我喜欢
           <span className="hover:text-elypink duration-300">爱莉希雅</span>
-          和黄泉，以及EVA里的明日香，其中单推爱莉。
+          和黄泉（崩坏系列）。前者而言，至少我无法幻想出一个比爱莉更理想的了，而黄泉一方面是老熟人雷电芽衣，
+          一方面是那张初云国时期的黄泉的图里真的太温柔了，完全忘不掉。
         </p>
       </div>
     </div>
