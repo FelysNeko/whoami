@@ -15,16 +15,12 @@ const Home = () => {
           <PL href="https://felys.dev" text="Felys" /> is a functional
           programming language I developed. It will continue to evolve as I take
           more relevant courses, and I hope to complete it before graduation.
+        </p>
+        <p className="text-xl">
           Checkout my{" "}
           <PL href="https://www.linkedin.com/in/jonny-jin" text="LinkedIn" />{" "}
           and <PL href="https://github.com/FelysNeko" text="GitHub" /> for more
           details.
-        </p>
-        <p className="text-xl">
-          My go-to programming languages are Python, Rust, and C, primarily
-          because I appreciate their design. Though when it comes to work, I
-          just pick the most suitable tool. After all, the fundamentals remain
-          unchanged.
         </p>
       </div>
     </div>
