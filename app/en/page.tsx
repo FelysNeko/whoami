@@ -10,11 +10,11 @@ const Home = () => {
         </h2>
         <p className="text-xl">
           I am an international student at the University of Waterloo. I have
-          experience in web development and reinforcement learning research
-          through internships, and I am interested in compilers.{" "}
-          <PL href="https://felys.dev" text="Felys" /> is a functional
-          programming language I developed. It will continue to evolve as I take
-          more relevant courses, and I hope to complete it before graduation.
+          experience in web development and reinforcement learning through
+          internships, and I am interested in compilers.{" "}
+          <PL href="https://felys.dev" text="Felys" /> is a programming language
+          I developed. It will continue to evolve as I take more relevant
+          courses, and I hope to complete it before graduation.
         </p>
         <p className="text-xl">
           Checkout my{" "}
