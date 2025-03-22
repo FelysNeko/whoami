@@ -8,7 +8,7 @@ export default function Home() {
   const [backgound, setBackground] = useState(false);
 
   return (
-    <div className="min-h-screen flex justify-center md:items-center pt-14 md:pt-0">
+    <div className="min-h-screen flex justify-center items-center">
       <div className="p-4 space-y-4 max-w-5xl">
         <h1 className="text-7xl">你好，</h1>
         <h2 className="text-4xl">我是Jonny Jin，常用网名银河猫猫侠。</h2>
@@ -30,10 +30,9 @@ export default function Home() {
             alt=""
             fill
             priority
-            placeholder="blur"
             className={`object-cover ${
-              backgound ? "opacity-5" : "opacity-0"
-            } transition-opacity duration-300`}
+              backgound ? "opacity-10" : "opacity-0"
+            } transition-opacity duration-500`}
           />
         </div>
       </div>

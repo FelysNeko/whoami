@@ -2,7 +2,7 @@ import PL from "@/components/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex justify-center md:items-center pt-14 md:pt-0">
+    <div className="min-h-screen flex justify-center items-center">
       <div className="p-4 space-y-4 max-w-5xl">
         <h1 className="text-7xl">Hello,</h1>
         <h2 className="text-4xl">
