@@ -10,11 +10,10 @@ export default function Home() {
         </h2>
         <p className="text-xl">
           I am an international student at the University of Waterloo. My career
-          focus is on machine learning (reinforcement learning, generative flow
-          network, and a little bit of transformer), but I am also interested in
-          programming language.{" "}
-          <PL href="https://exec.felys.dev" text="Felys" /> is a programming
-          language I developed.
+          focus is on machine learning, specifically reinforcement learning and
+          generative flow networks, but I am also interested in programming
+          language. <PL href="https://exec.felys.dev" text="Felys" /> is a
+          programming language I developed.
         </p>
         <p className="text-xl">
           Checkout my{" "}
