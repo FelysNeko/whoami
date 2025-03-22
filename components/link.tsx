@@ -5,12 +5,10 @@ interface Props {
   text: string;
 }
 
-const PL = ({ href, text }: Props) => {
+export default function PL({ href, text }: Props) {
   return (
-    <Link href={href} className="text-elypink" target="_blank">
+    <Link href={href} className="text-elysia" target="_blank">
       {text}
     </Link>
   );
-};
-
-export default PL;
+}
