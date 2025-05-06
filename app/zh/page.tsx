@@ -31,7 +31,7 @@ export default function Home() {
             fill
             priority
             className={`object-cover ${
-              backgound ? "opacity-10" : "opacity-0"
+              backgound ? "opacity-20" : "opacity-0"
             } transition-opacity duration-500`}
           />
         </div>
