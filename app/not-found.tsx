@@ -10,12 +10,11 @@ export default function NotFound() {
 
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="md:flex p-4 text-xl text-center">
+      <div className="flex p-4 text-xl text-center">
         <h5>PAGE NOT FOUND</h5>
-        <div className="w-[2px] mx-2 bg-white hidden md:block" />
-        <button className="text-elysia" onClick={goBack}>
-          <span className="md:hidden">{"> "}</span>BACK
-          <span className="md:hidden">{" <"}</span>
+        <div className="w-0.5 mx-2 bg-white" />
+        <button className="text-pink" onClick={goBack}>
+          BACK
         </button>
       </div>
     </div>

@@ -7,7 +7,7 @@ interface Props {
 
 export default function PL({ href, text }: Props) {
   return (
-    <Link href={href} className="text-elysia" target="_blank">
+    <Link href={href} className="text-pink" target="_blank">
       {text}
     </Link>
   );

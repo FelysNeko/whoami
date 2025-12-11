@@ -12,7 +12,7 @@ export default function Home() {
           I am an international student at the University of Waterloo. My career
           focus is on machine learning, but I am also interested in programming
           language. <PL href="https://exec.felys.dev" text="Felys" /> is a
-          programming language I developed.
+          programming language I am developing.
         </p>
         <p className="text-xl">
           Checkout my{" "}
