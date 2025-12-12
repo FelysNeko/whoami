@@ -15,7 +15,7 @@ export default function Home() {
           programming language I am developing.
         </p>
         <p className="text-xl">
-          Checkout my{" "}
+          Check out my{" "}
           <PL href="https://www.linkedin.com/in/jonny-jin" text="LinkedIn" />{" "}
           and <PL href="https://github.com/FelysNeko" text="GitHub" /> for more
           details.
