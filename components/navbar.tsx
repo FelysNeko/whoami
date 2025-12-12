@@ -11,11 +11,11 @@ export default function Navbar({ lang }: Props) {
         href={lang === "en" ? "/zh" : "/en"}
         className="flex justify-center items-center text-lg"
       >
-        <span className={lang === "en" ? "text-elysia" : "text-neutral-400"}>
+        <span className={lang === "en" ? "text-pink" : "text-neutral-400"}>
           EN
         </span>
-        <div className="w-[2px] h-5 mx-2 bg-white" />
-        <span className={lang === "zh" ? "text-elysia" : "text-neutral-400"}>
+        <div className="w-0.5 h-5 mx-2 bg-white" />
+        <span className={lang === "zh" ? "text-pink" : "text-neutral-400"}>
           中
         </span>
       </Link>
