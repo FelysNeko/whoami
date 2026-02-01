@@ -23,7 +23,7 @@ export default function Home() {
           >
             爱莉希雅
           </button>
-          和
+          与
           <button
             className="text-pink cursor-pointer"
             onClick={() => setBackground(background === cyrene ? null : cyrene)}

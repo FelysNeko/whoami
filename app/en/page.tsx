@@ -10,9 +10,10 @@ export default function Home() {
         </h2>
         <p className="text-xl">
           I am an international student at the University of Waterloo. My career
-          focus is on machine learning, but I am also interested in programming
-          language. <PL href="https://exec.felys.dev" text="Felys" /> is a
-          programming language I am developing.
+          focus is on machine learning and software development, but I am also
+          interested in programming language.{" "}
+          <PL href="https://exec.felys.dev" text="Felys" /> is the one I am
+          building.
         </p>
         <p className="text-xl">
           Check out my{" "}
