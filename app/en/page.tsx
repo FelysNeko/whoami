@@ -1,4 +1,4 @@
-import PL from "@/components/link";
+import PinkLink from "@/components/link";
 
 export default function Home() {
   return (
@@ -12,14 +12,17 @@ export default function Home() {
           I am an international student at the University of Waterloo. My career
           focus is on machine learning and software development, but I am also
           interested in programming language.{" "}
-          <PL href="https://exec.felys.dev" text="Felys" /> is the one I am
-          building.
+          <PinkLink href="https://exec.felys.dev" text="Felys" /> is the one I
+          am building.
         </p>
         <p className="text-xl">
           Check out my{" "}
-          <PL href="https://www.linkedin.com/in/jonny-jin" text="LinkedIn" />{" "}
-          and <PL href="https://github.com/FelysNeko" text="GitHub" /> for more
-          details.
+          <PinkLink
+            href="https://www.linkedin.com/in/jonny-jin"
+            text="LinkedIn"
+          />{" "}
+          and <PinkLink href="https://github.com/FelysNeko" text="GitHub" /> for
+          more details.
         </p>
       </div>
     </div>

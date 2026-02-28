@@ -5,7 +5,7 @@ interface Props {
   text: string;
 }
 
-export default function PL({ href, text }: Props) {
+export default function PinkLink({ href, text }: Props) {
   return (
     <Link href={href} className="text-pink" target="_blank">
       {text}
