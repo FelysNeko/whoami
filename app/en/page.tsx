@@ -9,11 +9,11 @@ export default function Home() {
           My name is Jonny Jin, also known as FelysNeko.
         </h2>
         <p className="text-xl">
-          I am an international student at the University of Waterloo. My career
+          I am an undergraduate student at the University of Waterloo. My career
           focus is on machine learning and software development, but I am also
-          interested in programming language.{" "}
+          interested in programming languages.{" "}
           <PinkLink href="https://exec.felys.dev" text="Felys" /> is the one I
-          am building.
+          built.
         </p>
         <p className="text-xl">
           Check out my{" "}

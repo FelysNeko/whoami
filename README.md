@@ -2,16 +2,9 @@
 
 A static single page website that introduces myself.
 
-## Setup
-
-```sh
-npm install
-npm run dev
-```
-
 ## License
 
-Distributed under the terms of the [MIT License](LICENSE).
+Distributed under the terms of the [LICENSE](LICENSE).
 
 ## Copyright
 

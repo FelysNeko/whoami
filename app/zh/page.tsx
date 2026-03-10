@@ -16,7 +16,7 @@ export default function Home() {
         <p className="text-xl">
           本人目前在加拿大读大学，主要从事机器学习和软件开发，同时也热衷于研究编程语言。
           <PinkLink href="https://exec.felys.dev" text="Felys" />{" "}
-          是我正在创作的一款编程语言，旨在纪念
+          是我创作的一款编程语言，旨在纪念
           <button
             className="text-pink cursor-pointer"
             onClick={() =>
@@ -35,6 +35,9 @@ export default function Home() {
             昔涟
           </button>
           在我人生中留下的不可磨灭的印记，顺便填充一下简历。
+        </p>
+        <p className="text-xl">
+          清冷的旅途中夹杂着一抹粉色，走下去，尽人事听天命。
         </p>
         <div
           className="w-screen h-screen fixed top-0 left-0 z-[-1]"
