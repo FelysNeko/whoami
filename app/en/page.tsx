@@ -12,7 +12,7 @@ export default function Home() {
           I am an undergraduate student at the University of Waterloo. My career
           focus is on machine learning and software development, but I am also
           interested in programming languages.{" "}
-          <PinkLink href="https://exec.felys.dev" text="Felys" /> is the one I
+          <PinkLink href="https://felys.dev/en/compiler" text="Felys" /> is the one I
           built.
         </p>
         <p className="text-xl">
