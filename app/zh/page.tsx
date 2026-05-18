@@ -9,7 +9,7 @@ export default function Home() {
   const [background, setBackground] = useState<String | null>(null);
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-dvh flex justify-center items-center">
       <div className="p-4 space-y-4 max-w-5xl">
         <h1 className="text-7xl">你好，</h1>
         <h2 className="text-4xl">我是Jonny Jin，常用网名银河猫猫侠。</h2>
@@ -40,7 +40,7 @@ export default function Home() {
           清冷的旅途中夹杂着一抹粉色，走下去，尽人事听天命。
         </p>
         <div
-          className="w-screen h-screen fixed top-0 left-0 z-[-1]"
+          className="w-dvw h-dvh fixed top-0 left-0 z-[-1]"
           style={{
             opacity: background === "elysia" ? 0.15 : 0,
             transition: "opacity 200ms ease-in-out",
@@ -55,7 +55,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="w-screen h-screen fixed top-0 left-0 z-[-1]"
+          className="w-dvw h-dvh fixed top-0 left-0 z-[-1]"
           style={{
             opacity: background === "cyrene" ? 0.15 : 0,
             transition: "opacity 200ms ease-in-out",
