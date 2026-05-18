@@ -9,13 +9,13 @@ export default function Home() {
   const [background, setBackground] = useState<String | null>(null);
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-dvh flex justify-center items-center">
       <div className="p-4 space-y-4 max-w-5xl">
         <h1 className="text-7xl">你好，</h1>
         <h2 className="text-4xl">我是Jonny Jin，常用网名银河猫猫侠。</h2>
         <p className="text-xl">
           本人目前在加拿大读大学，主要从事机器学习和软件开发，同时也热衷于研究编程语言。
-          <PinkLink href="https://exec.felys.dev" text="Felys" />{" "}
+          <PinkLink href="https://felys.dev/zh/compiler" text="Felys" />{" "}
           是我创作的一款编程语言，旨在纪念
           <button
             className="text-pink cursor-pointer"
@@ -40,7 +40,7 @@ export default function Home() {
           清冷的旅途中夹杂着一抹粉色，走下去，尽人事听天命。
         </p>
         <div
-          className="w-screen h-screen fixed top-0 left-0 z-[-1]"
+          className="w-dvw h-dvh fixed top-0 left-0 z-[-1]"
           style={{
             opacity: background === "elysia" ? 0.15 : 0,
             transition: "opacity 200ms ease-in-out",
@@ -55,7 +55,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="w-screen h-screen fixed top-0 left-0 z-[-1]"
+          className="w-dvw h-dvh fixed top-0 left-0 z-[-1]"
           style={{
             opacity: background === "cyrene" ? 0.15 : 0,
             transition: "opacity 200ms ease-in-out",
