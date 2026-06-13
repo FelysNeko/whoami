@@ -11,9 +11,10 @@ export default function Home() {
         <p className="text-xl">
           I am an undergraduate student at the University of Waterloo. My career
           focus is on machine learning and software development, but I am also
-          interested in programming languages.{" "}
-          <PinkLink href="https://felys.dev/en/compiler" text="Felys" /> is the
-          one I built.
+          interested in compiler principle. The{" "}
+          <PinkLink href="https://felys.dev" text="Felys" /> project contains a
+          programming language and a large language model fine-tuning
+          subproject.
         </p>
         <p className="text-xl">
           Check out my{" "}
