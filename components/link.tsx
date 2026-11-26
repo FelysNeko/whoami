@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-interface Props {
+interface PinkLinkProps {
   href: string;
   text: string;
 }
 
-export default function PinkLink({ href, text }: Props) {
+export default function PinkLink({ href, text }: PinkLinkProps) {
   return (
     <Link href={href} className="text-pink" target="_blank">
       {text}

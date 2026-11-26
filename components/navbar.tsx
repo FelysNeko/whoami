@@ -1,17 +1,14 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { EN, ZH } from "@/lib/config";
-import { useConfig } from "./i18n";
 
-export default function Navbar() {
-  const { root } = useConfig();
+export default function Navbar({ locale }: { locale: "en" | "zh" }) {
   const pathname = usePathname();
   const router = useRouter();
 
-  const switchLocale = root === EN.root ? ZH.root : EN.root;
+  const switchLocale = locale === "en" ? "zh" : "en";
   const handleSwitchLanguage = () => {
-    router.push(pathname.replace(`/${root}`, `/${switchLocale}`));
+    router.push(pathname.replace(`/${locale}`, `/${switchLocale}`));
   };
 
   return (
@@ -20,11 +17,11 @@ export default function Navbar() {
         className="flex justify-center items-center text-lg cursor-pointer"
         onClick={handleSwitchLanguage}
       >
-        <span className={root === EN.root ? "text-pink" : "text-neutral-400"}>
+        <span className={locale === "en" ? "text-pink" : "text-neutral-400"}>
           EN
         </span>
         <div className="w-0.5 h-5 mx-2 bg-white" />
-        <span className={root === ZH.root ? "text-pink" : "text-neutral-400"}>
+        <span className={locale === "zh" ? "text-pink" : "text-neutral-400"}>
           中
         </span>
       </button>

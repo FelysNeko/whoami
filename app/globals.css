@@ -3,3 +3,8 @@
 @theme {
   --color-pink: #ffc6f4;
 }
+
+html {
+  background-color: var(--color-neutral-900);
+  color: var(--color-neutral-100);
+}

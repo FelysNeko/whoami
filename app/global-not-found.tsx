@@ -1,13 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import "./globals.css";
 
-export default function NotFound() {
+export default function GlobalNotFound() {
   const router = useRouter();
-
-  const goBack = () => {
-    router.back();
-  };
 
   return (
     <html lang="en" className="bg-neutral-900 text-neutral-100">
@@ -15,7 +12,7 @@ export default function NotFound() {
         <div className="flex p-4 text-xl text-center">
           <h5>PAGE NOT FOUND</h5>
           <div className="w-0.5 mx-2 bg-white" />
-          <button className="text-pink cursor-pointer" onClick={goBack}>
+          <button className="text-pink cursor-pointer" onClick={() => router.back()}>
             BACK
           </button>
         </div>
